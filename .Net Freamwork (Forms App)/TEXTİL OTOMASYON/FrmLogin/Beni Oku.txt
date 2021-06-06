@@ -1,0 +1,4 @@
+Kad : Admin
+Pass : 8888
+
+Veri klasörünü C Diskine atın
