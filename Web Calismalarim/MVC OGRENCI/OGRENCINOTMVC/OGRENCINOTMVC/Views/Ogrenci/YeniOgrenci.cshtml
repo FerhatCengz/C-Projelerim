@@ -1,0 +1,84 @@
+﻿@model OGRENCINOTMVC.Models.Entity.Tbl_Ogrenci
+@{
+    ViewBag.Title = "YeniOgrenci";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<form method="post" class="form-group">
+    <div>
+        <label>ÖĞRENCİ ADI</label>
+        <input type="text" class="form-control" placeholder="Öğrenci Adı" name="OGRAD" />
+    </div>
+    <br />
+    <div>
+        <label>ÖĞRENCİ SOYADI</label>
+        <input type="text" class="form-control" placeholder="Öğrenci SOYADI" name="OGRSOYAD" />
+    </div>
+    <br />
+    <div>
+        <label>ÖĞRENCİ FOTO</label>
+        <input type="text" class="form-control" placeholder="Öğrenci Fotoğrafı" name="OGRFOTO" />
+    </div>
+    <br />
+    <div>
+        <label>ÖĞRENCİ CİNSİYET</label>
+        @Html.DropDownList("OGRCINSIYET",
+       new[] {
+           new SelectListItem(){Text = "ERKEK" },
+           new SelectListItem(){Text = "KIZ" },
+       },"Cinsiyet Seçiniz", new {@class = "form-control" } )
+
+        @*<select class="form-control" name="OGRCINSIYET">
+                <option>ERKEK</option>
+                <option>KIZ</option>
+            </select>*@
+    </div>
+    <br />
+    <div>
+        <label>ÖĞRENCİ KULÜP</label>
+        @*<input type="text" class="form-control" placeholder="Öğrenci Kulüp" name="OGRKULUP" />*@
+        @Html.DropDownListFor(x => x.Tbl_Kulupler.KULUPID, (List<SelectListItem>)ViewBag.listele, new { @class = "form-control" })
+    </div>
+    <br />
+    <div style="text-align:center;">
+        <button class="btn btn-primary">ÖĞRENCİYİ EKLE</button>
+    </div>
+
+
+
+
+
+    @*@Html.DropDownList("NAME",
+        new[]
+        {
+            new SelectListItem() {Value="1" , Text = "İSTANBUL"},
+            new SelectListItem() {Value="2" ,Text="BURSA"},
+            new SelectListItem() {Value="3" ,Text="İZMİR"},
+            new SelectListItem() {Value="4" ,Text="KAHRAMANMARAŞ"},
+            new SelectListItem() {Value="5" ,Text="ANKARA"},
+            new SelectListItem() {Value="6" ,Text="İZMİR"},
+        },"Şehir Seçiniz", new {@class = "form-control"})*@
+
+    @*@using (Html.BeginForm("YeniOgrenci", "Ogrenci", FormMethod.Get))
+        {
+            @Html.DropDownList("getirulen")
+        }*@
+
+
+    @*List<SelectListItem>
+        liste = new List<SelectListItem>
+            ();
+            liste.Add(new SelectListItem { Text = "MATEMATİK", Value = "1" });
+            liste.Add(new SelectListItem { Text = "TDE", Value = "2" });
+            liste.Add(new SelectListItem { Text = "COĞRAFYA", Value = "3" });
+            liste.Add(new SelectListItem { Text = "BİYOLOJİ", Value = "4" });
+            liste.Add(new SelectListItem { Text = "KİMYA", Value = "5" });
+            liste.Add(new SelectListItem { Text = "TRİGONEMETRİ", Value = "6" });
+            liste.Add(new SelectListItem { Text = "GEOMETRİ", Value = "7" });
+            liste.Add(new SelectListItem { Text = "FİZİK", Value = "8" });
+            ViewBag.getirulen = liste;*@
+
+
+
+</form>

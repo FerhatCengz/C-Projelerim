@@ -1,0 +1,19 @@
+﻿@model OGRENCINOTMVC.Models.Entity.Tbl_Dersler
+    @{
+        ViewBag.Title = "DersGetir";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    @using (Html.BeginForm("Guncelle", "Dersler", FormMethod.Post))
+    {
+        <div>
+            <label>DERS ADI</label>
+            @Html.TextBoxFor(x => x.DERSAD, new { @class = "form-control" })
+        </div>
+
+        <br />
+        <br />
+        <div style="text-align:center;">
+            <button class="btn btn-primary">Güncelle</button>
+        </div>
+    }

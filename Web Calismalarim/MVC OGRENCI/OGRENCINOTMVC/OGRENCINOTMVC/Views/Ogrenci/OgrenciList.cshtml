@@ -1,0 +1,40 @@
+﻿@using OGRENCINOTMVC.Models.Entity;
+@model List<Tbl_Ogrenci>
+@{
+    ViewBag.Title = "OgrenciList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<table class="table table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <td>ÖĞRENCİ ID</td>
+            <td>ÖĞRENCİ ADI</td>
+            <td>ÖĞRENCİ SOYADI</td>
+            <td>ÖĞRENCİ FOTO</td>
+            <td>ÖĞRENCİ CİNSİYET</td>
+            <td>ÖĞRENCİ KULUP</td>
+            <td>İŞLEMLER</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td>@x.OGRENCIID</td>
+                <td>@x.OGRAD</td>
+                <td>@x.OGRSOYAD</td>
+                <td>@x.OGRFOTO</td>
+                <td>@x.OGRCINSIYET</td>
+                <td>@x.Tbl_Kulupler.KULUPADI</td>
+                <td>
+                    <div>
+                        <a href="/Ogrenci/O_DELETE/@x.OGRENCIID" class="btn btn-danger">Sil</a>
+                        <a href="/Ogrenci/OgrenciGetir/@x.OGRENCIID" class="btn btn-success">Güncelle</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Ogrenci/YeniOgrenci" class="btn btn-primary">YENİ ÖĞRENCİ EKLE</a>

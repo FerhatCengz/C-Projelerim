@@ -1,0 +1,28 @@
+﻿@model OGRENCINOTMVC.Models.Entity.Tbl_Kulupler
+@{
+    ViewBag.Title = "K_Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Guncelle", "Kulup", FormMethod.Post))
+{
+    <div>
+        <label>KULÜP ADI</label>
+        @Html.TextBoxFor(x => x.KULUPADI, new { @class = "form-control" })
+    </div>
+    @Html.HiddenFor(x => x.KULUPID)
+    <br />
+    <div>
+        <label>KULÜP KONTENJAM</label>
+        @Html.TextBoxFor(x => x.KULUPKONTENJAN, new { @class = "form-control" })
+
+    </div>
+    <br />
+    <br />
+    <div style="text-align:center;">
+        <button class="btn btn-primary">Güncelle</button>
+    </div>
+
+
+
+}

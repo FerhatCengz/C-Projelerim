@@ -1,0 +1,49 @@
+﻿@model OGRENCINOTMVC.Models.Entity.Tbl_Notlar
+@{
+    ViewBag.Title = "YeniSinav";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" class="form-group">
+    <div>
+        <label>ÖĞRENCİ ID</label>
+        @Html.DropDownListFor(x => x.Tbl_Ogrenci.OGRENCIID, (List<SelectListItem>)ViewBag.ogrencilistele, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        <label>DERS ADI</label>
+        @Html.DropDownListFor(x => x.Tbl_Dersler.DERSID, (List<SelectListItem>)ViewBag.derslistele, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        <label>SINAV1</label>
+        <input type="text" class="form-control" placeholder="SINAV1" name="s" />
+    </div>
+
+    <div>
+        <label>SINAV2</label>
+        <input type="text" class="form-control" placeholder="SINAV2" name="s2" />
+    </div>
+    <div>
+        <label>SINAV3</label>
+        <input type="text" class="form-control" placeholder="SINAV3" name="s3" />
+    </div>
+    <div>
+        <label>PROJE</label>
+        <input type="text" class="form-control" placeholder="PROJE" name="s4" />
+    </div>
+    <div>
+        <label>ORTLAMA</label>
+        @Html.TextBox("snc", null, new { @class = "form-control" })
+    </div>
+    <div>
+        <label>DURUM</label>
+        @Html.TextBox("gct", null, new { @class = "form-control" })
+
+    </div>
+
+    <br />
+    <div style="text-align:center;">
+        <button class="btn btn-primary">Sınav Notunu Ekle</button>
+    </div>
+</form>

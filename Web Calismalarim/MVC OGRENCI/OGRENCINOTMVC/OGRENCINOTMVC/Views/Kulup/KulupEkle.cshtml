@@ -1,0 +1,28 @@
+﻿@using OGRENCINOTMVC.Models.Entity
+@model OGRENCINOTMVC.Models.Entity.Tbl_Kulupler
+@{
+    ViewBag.Title = "KulupEkle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm("KulupEkle", "Kulup", FormMethod.Post))
+{
+    <div class="form-group">
+        <div>
+            <label>KULÜP ADI</label>
+            @Html.TextBoxFor(x => x.KULUPADI, new { @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            <label>KULÜP KONTENJANI</label>
+            @Html.TextBoxFor(x => x.KULUPKONTENJAN, new { @class = "form-control" })
+        </div>
+        <br />
+        <br />
+        <div style="text-align:center;">
+            <button class="btn btn-primary">YENİ KULÜP EKLE</button>
+        </div>
+
+    </div>
+}

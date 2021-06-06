@@ -1,0 +1,50 @@
+﻿@model OGRENCINOTMVC.Models.Entity.Tbl_Ogrenci
+@{
+    ViewBag.Title = "OgrenciGetir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm("Guncelle", "Ogrenci", FormMethod.Post))
+{
+
+    <div>
+        <label>Öğrenci Adı</label>
+        @Html.TextBoxFor(x => x.OGRAD, new { @class = "form-control" })
+    </div>
+    <br />
+
+    <div>
+        <label>Öğrenci Soyadı</label>
+        @Html.TextBoxFor(x => x.OGRSOYAD, new { @class = "form-control" })
+    </div>
+    <br />
+    @Html.HiddenFor(x => x.OGRENCIID)
+    <div>
+        <label>Öğrenci Cisiyet</label>
+        @Html.DropDownList("OGRCINSIYET",
+            new[] {
+                new SelectListItem(){Text="ERKEK"},
+                new SelectListItem(){Text="KIZ"},
+            },new { @class = "form-control"})
+    </div>
+    <br />
+
+    <div>
+        <label>Öğrenci Fotoğraf</label>
+        @Html.TextBoxFor(x => x.OGRFOTO, new { @class = "form-control" })
+    </div>
+    <br />
+
+    <div>
+        <label>Öğrenci Kulüp </label>
+        @Html.DropDownListFor(x => x.Tbl_Kulupler.KULUPID, (List<SelectListItem>)ViewBag.kg, new { @class = "form-control" })
+    </div>
+    <br />
+    <div>
+        <button class="btn btn-success">Güncelle</button>
+    </div>
+    <div>
+        <img src="@ViewBag.ogrimg" />
+    </div>
+}

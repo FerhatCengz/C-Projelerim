@@ -1,0 +1,57 @@
+﻿@model OGRENCINOTMVC.Models.Entity.Tbl_Notlar
+@{
+    ViewBag.Title = "NotGetir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("NotGetir", "NotListesi", FormMethod.Post))
+{
+    <div>
+        <label>ÖĞRENCİ ADI</label>
+        @Html.TextBoxFor(x => x.OGRID, new { @Value = @ViewBag.adsy, @class = "form-control", disabled = "true" })
+    </div>
+    <br />
+    <div>
+        <label>DERS ADI</label>
+        @Html.DropDownListFor(x => x.Tbl_Dersler.DERSID, (List<SelectListItem>)ViewBag.qwer, new { @class = "form-control" })
+    </div>
+    <br />
+
+    @Html.HiddenFor(x => x.NOTID)
+
+    <div>
+        <label>SINAV1</label>
+        @Html.TextBoxFor(x => x.SINAV1, new { @class = "form-control" })
+    </div>
+
+    <div>
+        <label>SINAV2</label>
+        @Html.TextBoxFor(x => x.SINAV2, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>SINAV3</label>
+        @Html.TextBoxFor(x => x.SINAV3, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>PROJE</label>
+        @Html.TextBoxFor(x => x.PROJE, new { @class = "form-control" })
+
+    </div>
+    <div>
+        <label>ORTLAMA</label>
+        @Html.TextBoxFor(x => x.ORTALAMA, new { @Value = @ViewBag.ort, @class = "form-control", disabled = "true" })
+        @*@Html.TextBox("ort", null, new { @class = "form-control", disabled = "true" })*@
+    </div>
+    <div>
+        <label>Durum</label>
+        @Html.TextBoxFor(x => x.DURUM, new { @Value = @ViewBag.drm, @class = "form-control" })
+    </div>
+    <br />
+    <br />
+    <div>
+        <button type="submit" name="islem" value="GUNCELLE" class="btn btn-warning">Güncelle</button>
+
+    </div>
+}
