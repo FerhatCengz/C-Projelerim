@@ -1,0 +1,9 @@
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Proje_1\Proje_1\bin\Debug\Proje_1.exe.config
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Proje_1\Proje_1\obj\Debug\Proje_1.csprojResolveAssemblyReference.cache
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Proje_1\Proje_1\obj\Debug\Proje_1.Form1.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Proje_1\Proje_1\obj\Debug\Proje_1.Properties.Resources.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Proje_1\Proje_1\obj\Debug\Proje_1.csproj.GenerateResource.Cache
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Proje_1\Proje_1\bin\Debug\Proje_1.exe
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Proje_1\Proje_1\bin\Debug\Proje_1.pdb
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Proje_1\Proje_1\obj\Debug\Proje_1.exe
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Proje_1\Proje_1\obj\Debug\Proje_1.pdb
