@@ -1,0 +1,11 @@
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\bin\Debug\Asansor_Oyunu.exe.config
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\bin\Debug\Asansor_Oyunu.exe
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\bin\Debug\Asansor_Oyunu.pdb
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\obj\Debug\Asansor_Oyunu.csprojResolveAssemblyReference.cache
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\obj\Debug\Asansor_Oyunu.Form1.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\obj\Debug\Asansor_Oyunu.Properties.Resources.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\obj\Debug\Asansor_Oyunu.csproj.GenerateResource.Cache
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\obj\Debug\Asansor_Oyunu.exe
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\obj\Debug\Asansor_Oyunu.pdb
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\obj\Debug\Interop.WMPLib.dll
+C:\Users\User\OneDrive\Masaüstü\C# FORM\Asansor_Oyunu\Asansor_Oyunu\obj\Debug\Asansor_Oyunu.csproj.ResolveComReference.cache
