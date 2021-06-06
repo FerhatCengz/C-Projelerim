@@ -1,0 +1,12 @@
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\bin\Debug\TOMVEJERRY.exe.config
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\bin\Debug\TOMVEJERRY.exe
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\bin\Debug\TOMVEJERRY.pdb
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\obj\Debug\TOMVEJERRY.csprojResolveAssemblyReference.cache
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\obj\Debug\TOMVEJERRY.Form1.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\obj\Debug\TOMVEJERRY.Properties.Resources.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\obj\Debug\TOMVEJERRY.csproj.GenerateResource.Cache
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\obj\Debug\TOMVEJERRY.exe
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\obj\Debug\TOMVEJERRY.pdb
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\obj\Debug\TOMVEJERRY.Form2.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\obj\Debug\TOMVEJERRY.Form3.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\KEDI OYUNU\TOMVEJERRY\TOMVEJERRY\obj\Debug\TOMVEJERRY.Form4.resources
