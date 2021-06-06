@@ -1,0 +1,11 @@
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\bin\Debug\Coin2Bot.exe.config
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\bin\Debug\Coin2Bot.exe
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\bin\Debug\Coin2Bot.pdb
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\obj\Debug\Coin2Bot.csprojAssemblyReference.cache
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\obj\Debug\Coin2Bot.Form1.resources
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\obj\Debug\Coin2Bot.Properties.Resources.resources
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\obj\Debug\Coin2Bot.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\obj\Debug\Coin2Bot.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\obj\Debug\Coin2Bot.exe
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\obj\Debug\Coin2Bot.pdb
+C:\Users\User\OneDrive\Masaüstü\CoinBot2\Coin2Bot\Coin2Bot\obj\Debug\Coin2Bot.FrmPozisyon.resources
