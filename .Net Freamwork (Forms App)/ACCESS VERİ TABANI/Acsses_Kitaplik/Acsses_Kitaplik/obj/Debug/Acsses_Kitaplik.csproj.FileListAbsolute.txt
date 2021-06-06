@@ -1,0 +1,9 @@
+C:\Users\User\OneDrive\Masaüstü\ACCESS VERİ TABANI\Acsses_Kitaplik\Acsses_Kitaplik\bin\Debug\Acsses_Kitaplik.exe.config
+C:\Users\User\OneDrive\Masaüstü\ACCESS VERİ TABANI\Acsses_Kitaplik\Acsses_Kitaplik\bin\Debug\Acsses_Kitaplik.exe
+C:\Users\User\OneDrive\Masaüstü\ACCESS VERİ TABANI\Acsses_Kitaplik\Acsses_Kitaplik\bin\Debug\Acsses_Kitaplik.pdb
+C:\Users\User\OneDrive\Masaüstü\ACCESS VERİ TABANI\Acsses_Kitaplik\Acsses_Kitaplik\obj\Debug\Acsses_Kitaplik.csprojResolveAssemblyReference.cache
+C:\Users\User\OneDrive\Masaüstü\ACCESS VERİ TABANI\Acsses_Kitaplik\Acsses_Kitaplik\obj\Debug\Acsses_Kitaplik.Form1.resources
+C:\Users\User\OneDrive\Masaüstü\ACCESS VERİ TABANI\Acsses_Kitaplik\Acsses_Kitaplik\obj\Debug\Acsses_Kitaplik.Properties.Resources.resources
+C:\Users\User\OneDrive\Masaüstü\ACCESS VERİ TABANI\Acsses_Kitaplik\Acsses_Kitaplik\obj\Debug\Acsses_Kitaplik.csproj.GenerateResource.Cache
+C:\Users\User\OneDrive\Masaüstü\ACCESS VERİ TABANI\Acsses_Kitaplik\Acsses_Kitaplik\obj\Debug\Acsses_Kitaplik.exe
+C:\Users\User\OneDrive\Masaüstü\ACCESS VERİ TABANI\Acsses_Kitaplik\Acsses_Kitaplik\obj\Debug\Acsses_Kitaplik.pdb
