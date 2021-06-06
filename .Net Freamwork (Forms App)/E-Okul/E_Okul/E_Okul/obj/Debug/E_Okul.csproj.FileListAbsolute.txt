@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\bin\Debug\E_Okul.exe.config
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\bin\Debug\E_Okul.exe
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\bin\Debug\E_Okul.pdb
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.csprojResolveAssemblyReference.cache
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.Form1.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.Properties.Resources.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.csproj.GenerateResource.Cache
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.exe
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.pdb
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.FrmOgrenciNotlar.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.FrmOgretmen.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.FrmKulup.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.FrmDersler.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.FrmOgrenci_islem.resources
+C:\Users\User\OneDrive\Masaüstü\C# FORM\E-Okul\E_Okul\E_Okul\obj\Debug\E_Okul.FrmSinavNotlar.resources
