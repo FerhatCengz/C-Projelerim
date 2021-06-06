@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Panel.master.cs" Inherits="CarSite.Panel" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap2.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light table table-dark">
+            <a class="navbar-brand" href="/Index/Index.aspx">
+                <img src="/Image/Logo.png" class="w-50" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/Piyasa/Piyasa.aspx">Araç Al / Piyasa Bakın<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/SatisEmri/SatisEmri.aspx">Satış Emri Ekleyin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AracKirala/AracKirala.aspx">Araç Kiralayın</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <asp:Panel ID="Panel1" runat="server">
+
+            <div style="width: 80px; font-size: 15px; position: absolute; top: 2px; margin-left: 1210px;">
+                <asp:HyperLink NavigateUrl="/Ilanlarim/Ilanlarım.aspx" ID="HyperLink1" runat="server"><i class="">İlanlarım</i></asp:HyperLink>
+
+            </div>
+            <div style="width: 80px; font-size: 15px; position: absolute; top: 2px; margin-left: 1300px;">
+                <asp:HyperLink NavigateUrl="/Login/Login.aspx" ID="Grs_Yap" runat="server"><i class="">Giriş Yap</i></asp:HyperLink>
+
+            </div>
+
+            <div style="width: 80px; font-size: 15px; position: absolute; top: 2px; margin-left: 1400px;">
+                <asp:HyperLink NavigateUrl="/KayıtOl/KayıtOl.aspx" ID="Kyt_Ol" runat="server"><i class="">Kayıt Ol</i></asp:HyperLink>
+            </div>
+            <div style="width: 80px; font-size: 15px; position: absolute; top: 2px; margin-left: 1400px;">
+                <asp:HyperLink ID="Cks_Yap" NavigateUrl="/Login/WebForm1.aspx" runat="server" Visible="false">Çıkış Yap</asp:HyperLink>
+            </div>
+
+            <div style="width: 80px; font-size: 15px; position: absolute; top: 2px; margin-left: 1120px;">
+                <asp:HyperLink ID="GelenKutusu" NavigateUrl="/Mesajlar/Mesajlar.aspx" runat="server">Mesajlar(<asp:label ID="lblTotalMessage" runat="server" Text="0"></asp:label>)</asp:HyperLink>
+            </div>
+
+        </asp:Panel>
+
+
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+</body>
+</html>

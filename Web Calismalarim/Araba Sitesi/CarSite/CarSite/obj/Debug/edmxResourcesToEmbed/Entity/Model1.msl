@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntityArabaModelStoreContainer" CdmEntityContainer="EntityArabaEntities1">
+    <EntitySetMapping Name="Tbl_Ilanlar">
+      <EntityTypeMapping TypeName="EntityArabaModel.Tbl_Ilanlar">
+        <MappingFragment StoreEntitySet="Tbl_Ilanlar">
+          <ScalarProperty Name="KAD_ID" ColumnName="KAD_ID" />
+          <ScalarProperty Name="SATAN_KULLANICI" ColumnName="SATAN_KULLANICI" />
+          <ScalarProperty Name="RESIM" ColumnName="RESIM" />
+          <ScalarProperty Name="ILAN_TARIHI" ColumnName="ILAN_TARIHI" />
+          <ScalarProperty Name="MARKA" ColumnName="MARKA" />
+          <ScalarProperty Name="MODEL" ColumnName="MODEL" />
+          <ScalarProperty Name="ARAC_YILI" ColumnName="ARAC_YILI" />
+          <ScalarProperty Name="KM" ColumnName="KM" />
+          <ScalarProperty Name="YAKIT_TURU" ColumnName="YAKIT_TURU" />
+          <ScalarProperty Name="VITES_TIPI" ColumnName="VITES_TIPI" />
+          <ScalarProperty Name="MOTOR_HACMI" ColumnName="MOTOR_HACMI" />
+          <ScalarProperty Name="MOTOR_GUCU" ColumnName="MOTOR_GUCU" />
+          <ScalarProperty Name="KIMDEN" ColumnName="KIMDEN" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+          <ScalarProperty Name="FİYAT" ColumnName="FİYAT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Kullancılar">
+      <EntityTypeMapping TypeName="EntityArabaModel.Tbl_Kullancılar">
+        <MappingFragment StoreEntitySet="Tbl_Kullancılar">
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="SOYADI" ColumnName="SOYADI" />
+          <ScalarProperty Name="ADI" ColumnName="ADI" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KAD" ColumnName="KAD" />
+          <ScalarProperty Name="PASS" ColumnName="PASS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Marka">
+      <EntityTypeMapping TypeName="EntityArabaModel.Tbl_Marka">
+        <MappingFragment StoreEntitySet="Tbl_Marka">
+          <ScalarProperty Name="MARKAID" ColumnName="MARKAID" />
+          <ScalarProperty Name="MARKA_ADI" ColumnName="MARKA_ADI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Modeller">
+      <EntityTypeMapping TypeName="EntityArabaModel.Tbl_Modeller">
+        <MappingFragment StoreEntitySet="Tbl_Modeller">
+          <ScalarProperty Name="MODELID" ColumnName="MODELID" />
+          <ScalarProperty Name="MRKAID" ColumnName="MRKAID" />
+          <ScalarProperty Name="MODELADI" ColumnName="MODELADI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Reklamlar">
+      <EntityTypeMapping TypeName="EntityArabaModel.Tbl_Reklamlar">
+        <MappingFragment StoreEntitySet="Tbl_Reklamlar">
+          <ScalarProperty Name="REKLAM_ID" ColumnName="REKLAM_ID" />
+          <ScalarProperty Name="REKLAM_IMAGE" ColumnName="REKLAM_IMAGE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Mesajlar">
+      <EntityTypeMapping TypeName="EntityArabaModel.Tbl_Mesajlar">
+        <MappingFragment StoreEntitySet="Tbl_Mesajlar">
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+          <ScalarProperty Name="TARIH" ColumnName="TARIH" />
+          <ScalarProperty Name="ICERIK" ColumnName="ICERIK" />
+          <ScalarProperty Name="BASLIK" ColumnName="BASLIK" />
+          <ScalarProperty Name="ALICI_KULLANICI" ColumnName="ALICI_KULLANICI" />
+          <ScalarProperty Name="GONDEREN_KULLANICI" ColumnName="GONDEREN_KULLANICI" />
+          <ScalarProperty Name="MESAJID" ColumnName="MESAJID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

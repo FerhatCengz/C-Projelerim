@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EntityArabaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Tbl_Ilanlar">
+    <Key>
+      <PropertyRef Name="KAD_ID" />
+    </Key>
+    <Property Name="KAD_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SATAN_KULLANICI" Type="int" />
+    <Property Name="RESIM" Type="varchar" MaxLength="500" />
+    <Property Name="ILAN_TARIHI" Type="smalldatetime" />
+    <Property Name="MARKA" Type="int" />
+    <Property Name="MODEL" Type="int" />
+    <Property Name="ARAC_YILI" Type="varchar" MaxLength="30" />
+    <Property Name="KM" Type="varchar" MaxLength="30" />
+    <Property Name="YAKIT_TURU" Type="varchar" MaxLength="30" />
+    <Property Name="VITES_TIPI" Type="varchar" MaxLength="30" />
+    <Property Name="MOTOR_HACMI" Type="varchar" MaxLength="30" />
+    <Property Name="MOTOR_GUCU" Type="varchar" MaxLength="30" />
+    <Property Name="KIMDEN" Type="varchar" MaxLength="30" />
+    <Property Name="ACIKLAMA" Type="varchar" MaxLength="500" />
+    <Property Name="FİYAT" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="Tbl_Kullancılar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ADI" Type="varchar" MaxLength="10" />
+    <Property Name="SOYADI" Type="varchar" MaxLength="10" />
+    <Property Name="KAD" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PASS" Type="varchar" MaxLength="50" />
+    <Property Name="MAIL" Type="varchar" MaxLength="80" />
+  </EntityType>
+  <EntityType Name="Tbl_Marka">
+    <Key>
+      <PropertyRef Name="MARKAID" />
+    </Key>
+    <Property Name="MARKAID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MARKA_ADI" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Tbl_Mesajlar">
+    <Key>
+      <PropertyRef Name="MESAJID" />
+    </Key>
+    <Property Name="MESAJID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GONDEREN_KULLANICI" Type="varchar" MaxLength="12" />
+    <Property Name="ALICI_KULLANICI" Type="varchar" MaxLength="12" />
+    <Property Name="BASLIK" Type="varchar" MaxLength="50" />
+    <Property Name="ICERIK" Type="varchar" MaxLength="500" />
+    <Property Name="TARIH" Type="smalldatetime" />
+    <Property Name="DURUM" Type="bit" />
+  </EntityType>
+  <EntityType Name="Tbl_Modeller">
+    <Key>
+      <PropertyRef Name="MODELID" />
+    </Key>
+    <Property Name="MODELID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MRKAID" Type="int" />
+    <Property Name="MODELADI" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Tbl_Reklamlar">
+    <Key>
+      <PropertyRef Name="REKLAM_ID" />
+    </Key>
+    <Property Name="REKLAM_ID" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="REKLAM_IMAGE" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <Association Name="FK_Tbl_Ilanlar_Tbl_Kullancılar">
+    <End Role="Tbl_Kullancılar" Type="Self.Tbl_Kullancılar" Multiplicity="0..1" />
+    <End Role="Tbl_Ilanlar" Type="Self.Tbl_Ilanlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Kullancılar">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Tbl_Ilanlar">
+        <PropertyRef Name="SATAN_KULLANICI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tbl_Ilanlar_Tbl_Marka">
+    <End Role="Tbl_Marka" Type="Self.Tbl_Marka" Multiplicity="0..1" />
+    <End Role="Tbl_Ilanlar" Type="Self.Tbl_Ilanlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Marka">
+        <PropertyRef Name="MARKAID" />
+      </Principal>
+      <Dependent Role="Tbl_Ilanlar">
+        <PropertyRef Name="MARKA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tbl_Ilanlar_Tbl_Modeller">
+    <End Role="Tbl_Modeller" Type="Self.Tbl_Modeller" Multiplicity="0..1" />
+    <End Role="Tbl_Ilanlar" Type="Self.Tbl_Ilanlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Modeller">
+        <PropertyRef Name="MODELID" />
+      </Principal>
+      <Dependent Role="Tbl_Ilanlar">
+        <PropertyRef Name="MODEL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tbl_Modeller_Tbl_Marka">
+    <End Role="Tbl_Marka" Type="Self.Tbl_Marka" Multiplicity="0..1" />
+    <End Role="Tbl_Modeller" Type="Self.Tbl_Modeller" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_Marka">
+        <PropertyRef Name="MARKAID" />
+      </Principal>
+      <Dependent Role="Tbl_Modeller">
+        <PropertyRef Name="MRKAID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EntityArabaModelStoreContainer">
+    <EntitySet Name="Tbl_Ilanlar" EntityType="Self.Tbl_Ilanlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Kullancılar" EntityType="Self.Tbl_Kullancılar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Marka" EntityType="Self.Tbl_Marka" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Mesajlar" EntityType="Self.Tbl_Mesajlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Modeller" EntityType="Self.Tbl_Modeller" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Reklamlar" EntityType="Self.Tbl_Reklamlar" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Tbl_Ilanlar_Tbl_Kullancılar" Association="Self.FK_Tbl_Ilanlar_Tbl_Kullancılar">
+      <End Role="Tbl_Kullancılar" EntitySet="Tbl_Kullancılar" />
+      <End Role="Tbl_Ilanlar" EntitySet="Tbl_Ilanlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tbl_Ilanlar_Tbl_Marka" Association="Self.FK_Tbl_Ilanlar_Tbl_Marka">
+      <End Role="Tbl_Marka" EntitySet="Tbl_Marka" />
+      <End Role="Tbl_Ilanlar" EntitySet="Tbl_Ilanlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tbl_Ilanlar_Tbl_Modeller" Association="Self.FK_Tbl_Ilanlar_Tbl_Modeller">
+      <End Role="Tbl_Modeller" EntitySet="Tbl_Modeller" />
+      <End Role="Tbl_Ilanlar" EntitySet="Tbl_Ilanlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tbl_Modeller_Tbl_Marka" Association="Self.FK_Tbl_Modeller_Tbl_Marka">
+      <End Role="Tbl_Marka" EntitySet="Tbl_Marka" />
+      <End Role="Tbl_Modeller" EntitySet="Tbl_Modeller" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

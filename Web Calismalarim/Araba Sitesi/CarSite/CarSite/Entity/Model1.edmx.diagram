@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="70c4db0df867411ab34ffbaa4e87cbd7" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="EntityArabaModel.Tbl_Ilanlar" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityArabaModel.Tbl_Kullancılar" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityArabaModel.Tbl_Marka" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityArabaModel.Tbl_Modeller" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="EntityArabaModel.Tbl_Reklamlar" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="EntityArabaModel.FK_Tbl_Ilanlar_Tbl_Kullancılar" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityArabaModel.FK_Tbl_Ilanlar_Tbl_Marka" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityArabaModel.FK_Tbl_Ilanlar_Tbl_Modeller" ManuallyRouted="false" />
+        <AssociationConnector Association="EntityArabaModel.FK_Tbl_Modeller_Tbl_Marka" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="EntityArabaModel.Tbl_Mesajlar" Width="1.5" PointX="5.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
