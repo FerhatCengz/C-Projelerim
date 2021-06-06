@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SatisMagzaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Tbl_Admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KAD" Type="varchar" MaxLength="30" />
+    <Property Name="PASS" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SatisMagza.dbo.Tbl_Image' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Tbl_Image">
+    <Key>
+      <PropertyRef Name="Img" />
+    </Key>
+    <Property Name="Img" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tbl_SatisUrun">
+    <Key>
+      <PropertyRef Name="URUNID" />
+    </Key>
+    <Property Name="URUNID" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="URUNADI" Type="varchar" MaxLength="40" />
+    <Property Name="URUNFIYAT" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="URUNSTOK" Type="int" />
+  </EntityType>
+  <EntityType Name="TBL_URUNEKLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="URUNADI" Type="varchar" MaxLength="40" />
+  </EntityType>
+  <Function Name="KABANGETiR2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="SatisMagzaModelStoreContainer">
+    <EntitySet Name="Tbl_Admin" EntityType="Self.Tbl_Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_SatisUrun" EntityType="Self.Tbl_SatisUrun" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBL_URUNEKLE" EntityType="Self.TBL_URUNEKLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Image" EntityType="Self.Tbl_Image" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Tbl_Image].[Img] AS [Img]
+    FROM [dbo].[Tbl_Image] AS [Tbl_Image]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SatisMagzaModelStoreContainer" CdmEntityContainer="SatisMagzaEntities">
+    <EntitySetMapping Name="Tbl_Admin">
+      <EntityTypeMapping TypeName="SatisMagzaModel.Tbl_Admin">
+        <MappingFragment StoreEntitySet="Tbl_Admin">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KAD" ColumnName="KAD" />
+          <ScalarProperty Name="PASS" ColumnName="PASS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_SatisUrun">
+      <EntityTypeMapping TypeName="SatisMagzaModel.Tbl_SatisUrun">
+        <MappingFragment StoreEntitySet="Tbl_SatisUrun">
+          <ScalarProperty Name="URUNID" ColumnName="URUNID" />
+          <ScalarProperty Name="URUNADI" ColumnName="URUNADI" />
+          <ScalarProperty Name="URUNSTOK" ColumnName="URUNSTOK" />
+          <ScalarProperty Name="URUNFIYAT" ColumnName="URUNFIYAT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Image">
+      <EntityTypeMapping TypeName="SatisMagzaModel.Tbl_Image">
+        <MappingFragment StoreEntitySet="Tbl_Image">
+          <ScalarProperty Name="Img" ColumnName="Img" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_URUNEKLE">
+      <EntityTypeMapping TypeName="SatisMagzaModel.TBL_URUNEKLE">
+        <MappingFragment StoreEntitySet="TBL_URUNEKLE">
+          <ScalarProperty Name="URUNADI" ColumnName="URUNADI" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="KABANGETiR2" FunctionName="SatisMagzaModel.Store.KABANGETiR2" />
+  </EntityContainerMapping>
+</Mapping>

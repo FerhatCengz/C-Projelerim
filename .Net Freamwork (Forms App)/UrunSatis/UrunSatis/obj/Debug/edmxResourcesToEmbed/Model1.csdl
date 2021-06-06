@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SatisMagzaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Tbl_Admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PASS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Tbl_SatisUrun">
+    <Key>
+      <PropertyRef Name="URUNID" />
+    </Key>
+    <Property Name="URUNID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="URUNADI" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="URUNSTOK" Type="Int16" />
+    <Property Name="URUNFIYAT" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="Tbl_Image">
+    <Key>
+      <PropertyRef Name="Img" />
+    </Key>
+    <Property Name="Img" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="SatisMagzaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tbl_Admin" EntityType="Self.Tbl_Admin" />
+    <EntitySet Name="Tbl_SatisUrun" EntityType="Self.Tbl_SatisUrun" />
+    <EntitySet Name="Tbl_Image" EntityType="Self.Tbl_Image" />
+    <EntitySet Name="TBL_URUNEKLE" EntityType="SatisMagzaModel.TBL_URUNEKLE" />
+    <FunctionImport Name="KABANGETIR" ReturnType="Collection(Int16)" />
+    <FunctionImport Name="KABANGETiR2" ReturnType="Collection(Int32)" />
+  </EntityContainer>
+  <EntityType Name="TBL_URUNEKLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="URUNADI" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

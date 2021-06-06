@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SatisMagzaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Tbl_Admin">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KAD" Type="varchar" MaxLength="30" />
+          <Property Name="PASS" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'SatisMagza.dbo.Tbl_Image' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Tbl_Image">
+          <Key>
+            <PropertyRef Name="Img" />
+          </Key>
+          <Property Name="Img" Type="varchar" MaxLength="200" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tbl_SatisUrun">
+          <Key>
+            <PropertyRef Name="URUNID" />
+          </Key>
+          <Property Name="URUNID" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="URUNADI" Type="varchar" MaxLength="40" />
+          <Property Name="URUNFIYAT" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="URUNSTOK" Type="int" />
+        </EntityType>
+        <EntityType Name="TBL_URUNEKLE">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="URUNADI" Type="varchar" MaxLength="40" />
+        </EntityType>
+        <Function Name="KABANGETiR2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="SatisMagzaModelStoreContainer">
+          <EntitySet Name="Tbl_Admin" EntityType="Self.Tbl_Admin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tbl_SatisUrun" EntityType="Self.Tbl_SatisUrun" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBL_URUNEKLE" EntityType="Self.TBL_URUNEKLE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tbl_Image" EntityType="Self.Tbl_Image" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Tbl_Image].[Img] AS [Img]
+    FROM [dbo].[Tbl_Image] AS [Tbl_Image]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SatisMagzaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Tbl_Admin">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="PASS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Tbl_SatisUrun">
+          <Key>
+            <PropertyRef Name="URUNID" />
+          </Key>
+          <Property Name="URUNID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="URUNADI" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="URUNSTOK" Type="Int16" />
+          <Property Name="URUNFIYAT" Type="Decimal" Precision="18" Scale="2" />
+        </EntityType>
+        <EntityType Name="Tbl_Image">
+          <Key>
+            <PropertyRef Name="Img" />
+          </Key>
+          <Property Name="Img" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="SatisMagzaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Tbl_Admin" EntityType="Self.Tbl_Admin" />
+          <EntitySet Name="Tbl_SatisUrun" EntityType="Self.Tbl_SatisUrun" />
+          <EntitySet Name="Tbl_Image" EntityType="Self.Tbl_Image" />
+          <EntitySet Name="TBL_URUNEKLE" EntityType="SatisMagzaModel.TBL_URUNEKLE" />
+          <FunctionImport Name="KABANGETIR" ReturnType="Collection(Int16)" />
+          <FunctionImport Name="KABANGETiR2" ReturnType="Collection(Int32)" />
+        </EntityContainer>
+        <EntityType Name="TBL_URUNEKLE">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="URUNADI" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SatisMagzaModelStoreContainer" CdmEntityContainer="SatisMagzaEntities">
+          <EntitySetMapping Name="Tbl_Admin">
+            <EntityTypeMapping TypeName="SatisMagzaModel.Tbl_Admin">
+              <MappingFragment StoreEntitySet="Tbl_Admin">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="KAD" ColumnName="KAD" />
+                <ScalarProperty Name="PASS" ColumnName="PASS" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tbl_SatisUrun">
+            <EntityTypeMapping TypeName="SatisMagzaModel.Tbl_SatisUrun">
+              <MappingFragment StoreEntitySet="Tbl_SatisUrun">
+                <ScalarProperty Name="URUNID" ColumnName="URUNID" />
+                <ScalarProperty Name="URUNADI" ColumnName="URUNADI" />
+                <ScalarProperty Name="URUNSTOK" ColumnName="URUNSTOK" />
+                <ScalarProperty Name="URUNFIYAT" ColumnName="URUNFIYAT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tbl_Image">
+            <EntityTypeMapping TypeName="SatisMagzaModel.Tbl_Image">
+              <MappingFragment StoreEntitySet="Tbl_Image">
+                <ScalarProperty Name="Img" ColumnName="Img" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBL_URUNEKLE">
+            <EntityTypeMapping TypeName="SatisMagzaModel.TBL_URUNEKLE">
+              <MappingFragment StoreEntitySet="TBL_URUNEKLE">
+                <ScalarProperty Name="URUNADI" ColumnName="URUNADI" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="KABANGETiR2" FunctionName="SatisMagzaModel.Store.KABANGETiR2" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
