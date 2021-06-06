@@ -1,0 +1,17 @@
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\bin\Debug\Gelir_Gider2.exe.config
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\bin\Debug\Gelir_Gider2.exe
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\bin\Debug\Gelir_Gider2.pdb
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\bin\Debug\MaterialSkin.dll
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\bin\Debug\System.Data.SQLite.dll
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\bin\Debug\System.Data.SQLite.xml
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\obj\Debug\Gelir_Gider2.csprojAssemblyReference.cache
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\obj\Debug\Gelir_Gider2.Form1.resources
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\obj\Debug\Gelir_Gider2.Properties.Resources.resources
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\obj\Debug\Gelir_Gider2.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\obj\Debug\Gelir_Gider2.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\obj\Debug\Gelir_Gider2.csproj.CopyComplete
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\obj\Debug\Gelir_Gider2.exe
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\obj\Debug\Gelir_Gider2.pdb
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\obj\Debug\Gelir_Gider2.MoneyTutar.resources
+C:\Users\User\OneDrive\Masaüstü\Gelir Gider 2\Gelir_Gider2\Gelir_Gider2\obj\Debug\Gelir_Gider2.FrmGrafik.resources
