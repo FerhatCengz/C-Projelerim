@@ -1,0 +1,11 @@
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\bin\Debug\FutbolOyunu.exe.config
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\bin\Debug\FutbolOyunu.exe
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\bin\Debug\FutbolOyunu.pdb
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\obj\Debug\FutbolOyunu.csprojResolveAssemblyReference.cache
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\obj\Debug\FutbolOyunu.Form1.resources
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\obj\Debug\FutbolOyunu.Properties.Resources.resources
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\obj\Debug\FutbolOyunu.csproj.GenerateResource.Cache
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\obj\Debug\FutbolOyunu.exe
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\obj\Debug\FutbolOyunu.pdb
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\obj\Debug\Interop.WMPLib.dll
+C:\Users\User\OneDrive\Masaüstü\Futbol Oyunu\FutbolOyunu\FutbolOyunu\obj\Debug\FutbolOyunu.csproj.ResolveComReference.cache
