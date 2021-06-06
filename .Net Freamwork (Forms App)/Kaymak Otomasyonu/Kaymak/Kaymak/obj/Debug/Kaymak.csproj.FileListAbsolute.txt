@@ -1,0 +1,36 @@
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\bin\Debug\Kaymak.exe.config
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\bin\Debug\Kaymak.exe
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\bin\Debug\Kaymak.pdb
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\bin\Debug\System.Data.SQLite.dll
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\bin\Debug\System.Data.SQLite.xml
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.csprojResolveAssemblyReference.cache
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.Form1.resources
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.Properties.Resources.resources
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.csproj.GenerateResource.Cache
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.exe
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.pdb
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.Grafik.resources
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.csproj.ResolveComReference.cache
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.Filitre.resources
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.KADPAS.resources
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.data.resources
+C:\Users\User\OneDrive\Masaüstü\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.Notlarim.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\bin\Debug\Kaymak.exe.config
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.csproj.ResolveComReference.cache
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.exe
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.pdb
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\bin\Debug\Kaymak.exe
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\bin\Debug\Kaymak.pdb
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\bin\Debug\System.Data.SQLite.dll
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\bin\Debug\System.Data.SQLite.xml
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.csprojAssemblyReference.cache
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.data.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.Filitre.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.Form1.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.Grafik.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.KADPAS.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.Notlarim.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.Properties.Resources.resources
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Masaüstü\Projeler C#\Kaymak Otomasyonu\Kaymak\Kaymak\obj\Debug\Kaymak.csproj.CopyComplete
